@@ -17,67 +17,67 @@ export default function GalleryPage() {
   const galleryData: GalleryItem[] = [
     {
       id: 1,
-      image: "/src/assets/images/bali_focal_1783185247189.jpg",
-      title: "Kelingking Beach Nusa Penida",
-      location: "Nusa Penida, Bali",
+      image: "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783323538/52232f7d-759e-40de-a9ce-a8aa0fcde84d.png",
+      title: "Keheningan Ubud & Pesona Alam",
+      location: "Ubud, Bali",
       island: "Bali",
-      desc: "Keindahan alam ikonik tebing berbentuk Tyrannosaurus Rex di pesisir murni Nusa Penida."
+      desc: "Menyusuri pura samudera tinggi, bersantai di villa sawah asri, hingga petualangan tebing eksotis."
     },
     {
       id: 2,
-      image: "/src/assets/images/bali_uluwatu_1783185319938.jpg",
-      title: "Pura Luhur Uluwatu",
-      location: "Uluwatu Cliff, Bali",
+      image: "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783259686/52e43830-db53-4994-bcdc-5f89d5ab2d81.png",
+      title: "Eksotisme Nusa Penida",
+      location: "Kelingking Beach, Bali",
       island: "Bali",
-      desc: "Menyaksikan sendratari Tari Kecak kolosal dengan pemandangan magis laut samudera Hindia berlatar jingga."
+      desc: "Petualangan premium yang memadukan keindahan alam mistis tebing pantai pasir putih."
     },
     {
       id: 3,
-      image: "/src/assets/images/jogja_borobudur_1783185333099.jpg",
-      title: "Matahari Terbit Borobudur",
-      location: "Borobudur Temple, Magelang",
+      image: "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783260527/df4b701d-7590-4c0b-825a-9a947c63330c.png",
+      title: "Warisan Luhur Borobudur",
+      location: "Borobudur, Yogyakarta",
       island: "Yogyakarta",
-      desc: "Kabut pagi mistis menyelimuti stupa-stupa batu kuno di Borobudur pada saat fajar merekah."
+      desc: "Melihat sunrise Borobudur berselimut kabut fajar dengan latar belakang pegunungan yang megah."
     },
     {
       id: 4,
-      image: "/src/assets/images/jogja_prambanan_1783185291443.jpg",
-      title: "Kemegahan Candi Prambanan",
-      location: "Prambanan Complex, Sleman",
+      image: "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783239412/46590175-6096-4c5d-946c-9102764f4780.png",
+      title: "Sudut Sejarah Keraton",
+      location: "Kraton Yogyakarta, Yogyakarta",
       island: "Yogyakarta",
-      desc: "Monumen candi Hindu termegah di Indonesia menjulang lurus menembus langit senja Jogja."
+      desc: "Menjelajahi arsitektur tradisional jawa, pusaka pusaka keraton, dan kekayaan budaya kesultanan."
     },
     {
       id: 5,
-      image: "/src/assets/images/lombok_gili_1783185347860.jpg",
-      title: "Pantai Sunyi Gili Trawangan",
+      image: "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783325990/07be36ab-1958-4953-9542-37d30212f527.png",
+      title: "Kejernihan Gili Islands & Pantai",
       location: "Gili Trawangan, Lombok",
       island: "Lombok",
-      desc: "Menyusuri pulau tanpa asap polusi menggunakan sepeda kayuh, diselimuti lautan biru berkilau."
+      desc: "Berenang bersama penyu laut di Gili Trawangan, menikmati birunya pesisir pasir pantai."
     },
     {
       id: 6,
-      image: "/src/assets/images/lombok_beach_1783185262379.jpg",
-      title: "Pasir Merah Muda Eksotis",
-      location: "Pink Beach, Lombok",
+      image: "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783239446/a455d443-e832-40a7-99a1-2caf09c73875.png",
+      title: "Pemandangan Savana Sembalun",
+      location: "Sembalun, Lombok",
       island: "Lombok",
-      desc: "Warna pasir pantai yang berubah merah muda alami saat tersapu ombak lautan tenang."
+      desc: "Kesejukan alam di lereng Gunung Rinjani yang asri dikelilingi perbukitan hijau tropis."
     },
     {
       id: 7,
-      image: "/src/assets/images/sumba_savannah_1783185278312.jpg",
-      title: "Savana Bukit Wairinding",
-      location: "Waingapu, Sumba Timur",
+      image: "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783323579/14dd2e5b-db1b-45d4-80fb-85d7d1775637.png",
+      title: "Sumba Savana Liar",
+      location: "Wairinding, Sumba",
       island: "Sumba",
-      desc: "Hamparan bukit rumput bergelombang yang berganti corak seiring dengan pancaran sinar mentari."
+      desc: "Menyaksikan hamparan bukit bergelombang Wairinding dan keajaiban danau air asin."
     },
     {
       id: 8,
-      image: "/src/assets/images/sumba_lagoon_1783185303875.jpg",
-      title: "Kejernihan Danau Weekuri",
-      location: "Weekuri Saltwater Lake, Sumba Barat",
+      image: "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783259886/ff111fc5-420e-4677-8c71-19437f814b2a.png",
+      title: "Eksotisme Pesisir Sumba",
+      location: "Pantai Walakiri, Sumba",
       island: "Sumba",
-      desc: "Danau laguna air asin sebening kaca diapit tebing kokoh dengan kedalaman bergradasi."
+      desc: "Menyusuri indahnya pemandangan pohon bakau menari di bawah langit sunset yang berkilauan."
     }
   ];
 
@@ -90,7 +90,7 @@ export default function GalleryPage() {
       {/* Title Header */}
       <div className="max-w-4xl mx-auto text-center px-6 space-y-4">
         <span className="text-xs font-bold text-amber-500 tracking-widest uppercase">Eksplorasi Lensa Kamera</span>
-        <h1 className="font-serif text-3xl md:text-5xl tracking-wide text-stone-900">GALERI TRIP NURRBALITRAVEL</h1>
+        <h1 className="font-serif text-3xl md:text-5xl tracking-wide text-stone-900 uppercase">GALERI TRIP AN NAFI</h1>
         <div className="w-16 h-1 bg-amber-500 mx-auto mt-2"></div>
         <p className="text-stone-600 text-sm leading-relaxed max-w-2xl mx-auto pt-2">
           Berikut adalah potret orisinal perjalanan para tamu premium kami selama menjelajahi pesona Bali, Yogyakarta, Lombok, dan Sumba.

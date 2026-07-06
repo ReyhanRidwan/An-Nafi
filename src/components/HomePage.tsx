@@ -30,13 +30,13 @@ export default function HomePage({ onTabChange, onOpenBooking, onOpenBookingWith
       desc: "Menyusuri pura samudera tinggi, bersantai di villa sawah asri, hingga petualangan tebing eksotis."
     },
     {
-      image: "/src/assets/images/jogja_borobudur_1783185333099.jpg",
+      image: "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783260527/df4b701d-7590-4c0b-825a-9a947c63330c.png",
       title: "YOGYAKARTA",
       tagline: "Karya Agung Candi Buddha & Warisan Keraton",
       desc: "Melihat sunrise Borobudur berselimut kabut pagi, menyusuri Kraton, dan petualangan Jeep Merapi."
     },
     {
-      image: "/src/assets/images/lombok_beach_1783185262379.jpg",
+      image: "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783325990/07be36ab-1958-4953-9542-37d30212f527.png",
       title: "LOMBOK",
       tagline: "Kejernihan Gili Islands & Pesisir Pasir Pink",
       desc: "Berenang bersama penyu laut di Gili Trawangan, mendaki Sembalun, dan keunikan Pink Beach."
@@ -376,10 +376,14 @@ export default function HomePage({ onTabChange, onOpenBooking, onOpenBookingWith
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              "/src/assets/images/bali_focal_1783185247189.jpg",
-              "/src/assets/images/jogja_prambanan_1783185291443.jpg",
-              "/src/assets/images/lombok_gili_1783185347860.jpg",
-              "/src/assets/images/sumba_lagoon_1783185303875.jpg"
+              "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783323538/52232f7d-759e-40de-a9ce-a8aa0fcde84d.png",
+              "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783259686/52e43830-db53-4994-bcdc-5f89d5ab2d81.png",
+              "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783260527/df4b701d-7590-4c0b-825a-9a947c63330c.png",
+              "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783239412/46590175-6096-4c5d-946c-9102764f4780.png",
+              "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783325990/07be36ab-1958-4953-9542-37d30212f527.png",
+              "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783239446/a455d443-e832-40a7-99a1-2caf09c73875.png",
+              "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783323579/14dd2e5b-db1b-45d4-80fb-85d7d1775637.png",
+              "https://res.cloudinary.com/di6ziqvtp/image/upload/v1783259886/ff111fc5-420e-4677-8c71-19437f814b2a.png"
             ].map((img, i) => (
               <div key={i} className="aspect-[4/3] bg-stone-100 overflow-hidden border border-stone-200">
                 <img src={img} alt="Tamu kami" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer" />
