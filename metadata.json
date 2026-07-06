@@ -1,0 +1,8 @@
+{
+  "name": "An nafi",
+  "description": "Premium Tour & Travel multi-destinasi terpercaya di Indonesia melayani Bali, Yogyakarta, Lombok, Sumba, serta Paket Ziarah Wali Songo dan Study Tour.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
